@@ -1,0 +1,71 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Env / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+build/
+.gradle/
+out/
+*.class
+*.jar
+*.war
+
+# =========================
+# Docker
+# =========================
+docker-data/
+postgres-data/
+grafana-data/
+prometheus-data/
+loki-data/
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# =========================
+# Sonar / Reports
+# =========================
+.sonar/
+coverage/
+reports/
+
+# =========================
+# Misc
+# =========================
+tmp/
+.cache/
